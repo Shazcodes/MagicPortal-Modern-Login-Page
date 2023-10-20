@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to the Magical Portal</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Unlock Wizardry</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>or use your magical email for registration</p>
+                <label for="name">Your Sorcerer's Name</label>
+                <input type="text" id="name" placeholder="Enter your mystical name">
+                <label for="email">Email of Enchantment</label>
+                <input type="email" id="email" placeholder="Enter your enchanted email">
+                <label for="password">Secret Incantation</label>
+                <input type="password" id="password" placeholder="Enter your secret spell">
+                <button class="btn-sign-up">Summon Your Account</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Magical Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>or use your mystical email and secret spell</p>
+                <label for="signin-email">Email of Enchantment</label>
+                <input type="email" id="signin-email" placeholder="Enter your enchanted email">
+                <label for="signin-password">Secret Incantation</label>
+                <input type="password" id="signin-password" placeholder="Enter your secret spell">
+                <a href="#" class="forgot-password">Forgot Your Magic Word?</a>
+                <button class="btn-sign-in">Cast the Spell</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back, Wizard!</h1>
+                    <p>Enter your mystical details to unlock the realm's wonders.</p>
+                    <button class="hidden" id="login">Magical Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend of Magic!</h1>
+                    <p>Become a sorcerer by creating your magical account.</p>
+                    <button class="hidden" id="register">Summon Your Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
